@@ -1,0 +1,52 @@
+[
+    { // init library
+        "method": "initLibraryFromFile",
+        "params": [],
+        "returns": true
+    },
+    { // gets Library
+        "method": "getLibrary",
+        "params": [],
+        "returns": {}
+    },
+    { // get Album
+        "method": "getAlbum",
+        "params": ["info"],
+        "returns": {}
+    },
+    { // get track
+        "method": "getTrack",
+        "params": ["info"],
+        "returns": {}
+    },
+    { // add Album
+        "method": "addAlbum",
+        "params": [{ }],
+        "returns": true
+    },
+    { // add track
+        "method": "addTrack",
+        "params": [{ }],
+        "returns": true
+    },
+    { // remove Album
+        "method": "removeAlbum",
+        "params": ["info"],
+        "returns": true
+    },
+    { // remove Track
+        "method": "removeTrack",
+        "params": ["info"],
+        "returns": true
+    },
+    { //save to file
+        "method": "save",
+        "params":["info"],
+        "returns": true
+    },
+    { //restore from file
+        "method": "restore",
+        "params":[ ],
+        "returns": true
+    }
+]

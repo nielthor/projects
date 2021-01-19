@@ -1,0 +1,152 @@
+{
+  "Believe" : 
+  {
+    "albumName" : "Believe",
+    "duration" : "00:43:57",
+    "genre" : "pop",
+    "groupName" : "Cher",
+    "summary" : "Believe is the twenty-third studio album by American  singer-actress Cher, released on November 10, 1998 by Warner Bros. Records. The RIAA certified it Quadruple Platinum on December 23, 1999, recognizing four million shipments in the United States; Worldwide, the album has sold more than 20 million copies, making it the biggest-selling album of her career. In 1999 the album received three Grammy Awards nominations including \"Record of the Year\", \"Best Pop Album\" and winning \"Best Dance Recording\" for the single \"Believe\". <a href=\"http://www.last.fm/music/Cher/Believe\">Read more on Last.fm</a>.",
+    "tracks" : 
+    [
+      {
+        "album" : "Believe",
+        "artist" : "Cher",
+        "duration" : "239",
+        "rankOrder" : "1",
+        "track" : "Believe"
+      },
+      {
+        "album" : "Believe",
+        "artist" : "Cher",
+        "duration" : "236",
+        "rankOrder" : "2",
+        "track" : "The Power"
+      },
+      {
+        "album" : "Believe",
+        "artist" : "Cher",
+        "duration" : "286",
+        "rankOrder" : "3",
+        "track" : "Runaway"
+      },
+      {
+        "album" : "Believe",
+        "artist" : "Cher",
+        "duration" : "238",
+        "rankOrder" : "4",
+        "track" : "All or Nothing"
+      },
+      {
+        "album" : "Believe",
+        "artist" : "Cher",
+        "duration" : "223",
+        "rankOrder" : "5",
+        "track" : "Strong Enough"
+      },
+      {
+        "album" : "Believe",
+        "artist" : "Cher",
+        "duration" : "258",
+        "rankOrder" : "6",
+        "track" : "Dov'è L'amore"
+      },
+      {
+        "album" : "Believe",
+        "artist" : "Cher",
+        "duration" : "272",
+        "rankOrder" : "7",
+        "track" : "Takin' Back My Heart"
+      },
+      {
+        "album" : "Believe",
+        "artist" : "Cher",
+        "duration" : "304",
+        "rankOrder" : "8",
+        "track" : "Taxi Taxi"
+      },
+      {
+        "album" : "Believe",
+        "artist" : "Cher",
+        "duration" : "271",
+        "rankOrder" : "9",
+        "track" : "Love Is the Groove"
+      },
+      {
+        "album" : "Believe",
+        "artist" : "Cher",
+        "duration" : "310",
+        "rankOrder" : "10",
+        "track" : "We All Sleep Alone"
+      }
+    ],
+    "xlImgUrl" : "https://lastfm.freetls.fastly.net/i/u/300x300/b0c2311a9af7f0edbc8b99450944ca1b.png"
+  },
+  "Tool" : 
+  {
+    "albumName" : "Tool",
+    "duration" : "00:47:50",
+    "genre" : "rock",
+    "groupName" : "Tool",
+    "summary" : "This is the demo tape released by Tool, also known as 72826.This tape was recorded for promotional purpose but was also sold to fans. It's not certain how many copies exist but it's probably a number between 200 & 1000. This has become a very rare and wanted object these days. People are eagerly paying sums like 200 USD for a mint copy. However, very little information can be found on the internet about this tape. At the time of this recording, Tool were hardly existing for a few months. <a href=\"http://www.last.fm/music/Tool/Tool\">Read more on Last.fm</a>.",
+    "tracks" : 
+    [
+      {
+        "album" : "Tool",
+        "artist" : "Tool",
+        "duration" : "311",
+        "rankOrder" : "1",
+        "track" : "Stinkfist"
+      },
+      {
+        "album" : "Tool",
+        "artist" : "Tool",
+        "duration" : "400",
+        "rankOrder" : "2",
+        "track" : "Ænema"
+      },
+      {
+        "album" : "Tool",
+        "artist" : "Tool",
+        "duration" : "363",
+        "rankOrder" : "3",
+        "track" : "H."
+      },
+      {
+        "album" : "Tool",
+        "artist" : "Tool",
+        "duration" : "363",
+        "rankOrder" : "4",
+        "track" : "Forty Six & 2"
+      },
+      {
+        "album" : "Tool",
+        "artist" : "Tool",
+        "duration" : "509",
+        "rankOrder" : "5",
+        "track" : "Eulogy"
+      },
+      {
+        "album" : "Tool",
+        "artist" : "Tool",
+        "duration" : "306",
+        "rankOrder" : "6",
+        "track" : "Sober"
+      },
+      {
+        "album" : "Tool",
+        "artist" : "Tool",
+        "duration" : "296",
+        "rankOrder" : "7",
+        "track" : "Prison Sex"
+      },
+      {
+        "album" : "Tool",
+        "artist" : "Tool",
+        "duration" : "322",
+        "rankOrder" : "8",
+        "track" : "Opiate"
+      }
+    ],
+    "xlImgUrl" : "https://lastfm.freetls.fastly.net/i/u/300x300/329fff7d8798d8dec8523e1617e4eb99.png"
+  }
+}
