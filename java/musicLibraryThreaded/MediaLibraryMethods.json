@@ -1,0 +1,57 @@
+[
+    { // init library
+        "method": "initLibraryFromFile",
+        "params": [],
+        "returns": true
+    },
+    { // add Album
+        "method": "addAlbum",
+        "params": [{}],
+        "returns": true
+    },
+    { // add track
+        "method": "addTrack",
+        "params": [{}],
+        "returns": true
+    },
+    { // remove track
+        "method": "removeTrack",
+        "params": ["info"],
+        "returns": true
+    },
+    { // remove Album
+        "method": "removeAlbum",
+        "params": ["info"],
+        "returns": true
+    },
+    { // get music album
+        "method": "findAlbum",
+        "params": ["info"],
+        "returns": {}
+    },
+    { // get album track
+        "method": "findTrack",
+        "params": ["info"],
+        "returns": {}
+    },
+    { // remove Track
+        "method": "removeTrack",
+        "params": ["info"],
+        "returns": true
+    },
+    { //save to file
+        "method": "save",
+        "params":[],
+        "returns": true
+    },
+    { //restore from file
+        "method": "restore",
+        "params":[],
+        "returns": true
+    },
+    { // get Titles of ablums
+      "method": "getTitles",
+      "params": [25],
+      "returns": {}
+    }
+]
