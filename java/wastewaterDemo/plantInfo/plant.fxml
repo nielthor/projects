@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wastewaterTeam7.plantInfo.plantController">
+   <top>
+      <Label text="Plant Information" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="28.0" />
+         </font></Label>
+   </top>
+   <center>
+      <TableView fx:id="plantTable" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="plantID" prefWidth="75.0" text="Plant ID" />
+          <TableColumn fx:id="plantName" prefWidth="75.0" text="Plant Name" />
+            <TableColumn fx:id="plantOp" prefWidth="75.0" text="Operations" />
+            <TableColumn fx:id="plantLoc" prefWidth="75.0" text="Location" />
+            <TableColumn fx:id="plantAd" prefWidth="75.0" text="Address" />
+            <TableColumn fx:id="plantPh" prefWidth="75.0" text="Phone" />
+            <TableColumn fx:id="plantEm" prefWidth="75.0" text="Email" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </center>
+</BorderPane>
