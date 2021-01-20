@@ -1,0 +1,68 @@
+var news = new NewsService();
+news.newStory(
+  '{"author": "nielthor", "title": "Title 1", "flag": true, "content": "This is the content", "date": "2020-9-25"}'
+);
+news.newStory(
+  '{"author": "Thor", "title": "Title 2", "flag": false, "content": "This is Private content", "date": "2020-9-20"}'
+);
+news.newStory(
+  '{"author": "Gary", "title": "Title 3", "flag": true, "content": "This is Public content", "date": "2020-9-15"}'
+);
+console.log("-----INIT LOAD-------");
+console.log(news.newStoryArray);
+console.log("-----UPDATED TITLE-------");
+news.updateTitle('{"id": 1, "title": "Great New Title"}');
+
+console.log(news.newStoryArray);
+console.log("-----UPDATED CONTENT-------");
+news.updateContent('{"id": 1, "content": "I have been edited"}');
+console.log(news.newStoryArray);
+console.log("-----DELETED STORY-------");
+news.deleteStory('{"id": 1}');
+console.log(news.newStoryArray);
+console.log("-----STORY NOT FOUND WHEN DELETING-------returns false");
+console.log(news.deleteStory('{"id": 10}'));
+
+news.newStory(
+  '{"author": "Thor", "title": "Title 3", "flag": true, "content": "New Content", "date": "2020-9-30"}'
+);
+news.newStory(
+  '{"author": "Bob", "title": "Title 1", "flag": true, "content": "Bobs Content", "date": "2018-9-25"}'
+);
+news.newStory(
+  '{"author": "Mike", "title": "Title 2", "flag": true, "content": "Mikes Content", "date": "2020-10-20"}'
+);
+news.newStory(
+  '{"author": "Gary", "title": "Title 1", "flag": true, "content": "This is the content", "date": "2020-9-03"}'
+);
+console.log("-----CURRENT UNFILTERED LIBRARY-------");
+console.log(news.newStoryArray);
+
+console.log(
+  "-----FILTER A, B, C------- Title 3, 2019-9-20 to 2020-9-30, Gary - only 1"
+);
+console.log(
+  news.filterStorys(
+    '{"title": "Title 3", "dateStart": "2019-9-20", "dateStop": "2020-9-30", "author": "Gary"}'
+  )
+);
+console.log("-----FILTER TITLE------- Title 3");
+console.log(
+  news.filterStorys(
+    '{"title": "Title 3", "dateStart": "", "dateStop": "", "author": ""}'
+  )
+);
+console.log(
+  "-----FILTER DATE------- dates between 2020-9-20 and 2020-9-30 (should be 2)"
+);
+console.log(
+  news.filterStorys(
+    '{"title": "", "dateStart": "2020-9-20", "dateStop": "2020-9-30", "author": ""}'
+  )
+);
+console.log("-----FILTER AUTHOR------- Thor");
+console.log(
+  news.filterStorys(
+    '{"title": "","dateStart": "", "dateStop": "", "author": "Thor"}'
+  )
+);
