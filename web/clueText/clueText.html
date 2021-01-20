@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clue</title>
+  </head>
+  <body> 
+    <div class="banner">
+      <p>Rooms: Kitchen, Ball Room, Conservatory, Dining Room, 
+        Billiard Room, Lounge, Hall, Library, Study
+      <br>
+        Guest: Col Mustard, Miss Scarlet, Mr. Green, Mrs. Peacock, Mrs. White, Prof. Plum
+        <br>
+        Weapons: Candlestick, Knife, Lead Pipe, Revolver, Rope, Wrench
+      </p>
+    </div>
+    <div id="controls">
+      <label id="userlabel" for="userinput">Name: </label>
+      <input id="userinput" placeholder="your name">
+      <button type="submit" id="enter">Enter</button>
+    </div>
+    <div id="guess">
+      <br>
+      <label for="roomoption">Guess Room: </label>
+      <select name="roomoptoin" id="roomoption">
+        <option value="Kitchen" Name="Kitchen">Kitchen</option>
+        <option value="Ball Room" Name="Ball Room">Ball Room</option>
+        <option value="Conservatory" Name="Conservatory">Conservatory</option>
+        <option value="Dining Room" Name="Dining Room">Dining Room</option>
+        <option value="Billiard Room" Name="Billiard Room">Billiard Room</option>
+        <option value="Lounge" Name="Lounge">Lounge</option>
+        <option value="Hall" Name="Hall">Hall</option>
+        <option value="Library" Name="Library">Library</option>
+        <option value="Study" Name="Study">Study</option>
+      </select>
+      <br>
+    <label for="suspectoption">Guess Suspect:</label>
+    <select name="suspectoption" id="suspectoption">
+        <option value="Col Mustard" Name="Col Mustard">Col Mustard</option>
+        <option value="Miss Scarlet" Name="Miss Scarlet">Miss Scarlet</option>
+        <option value="Mr Green" Name="Mr Green">Mr. Green</option>
+        <option value="Mrs Peacock" Name="Mrs Peacock">Mrs. Peacock</option>
+        <option value="Mrs White" Name="Mrs White">Mrs. White</option>
+        <option value="Prof Plum" Name="Prof Plum">Prof. Plum</option>
+    </select>
+      <br>
+      <label for="weaponoption">Guess Weapons:</label>
+      <select name="weaponoption" id="weaponoption">
+        <option value="Candlestick" Name="Candlestick">Candlestick</option>
+        <option value="Knife" Name="Knife">Knife</option>
+        <option value="Lead Pipe" Name="Lead Pipe">Lead Pipe</option>
+        <option value="Revolver" Name="Revolver">Revolver</option>
+        <option value="Rope" Name="Rope">Rope</option>
+        <option value="Wrench" Name="Wrench">Wrench</option>
+      </select>
+      <br>
+      <button type="submit" id="guessButton" disabled>Guess</button>
+    </div>
+    <div id="result"></div>
+    <div id="recordControl"></div>
+    <div id="records"></div>
+    <script src="clueText.js"></script>
+  </body>
+</html>
+
+
+

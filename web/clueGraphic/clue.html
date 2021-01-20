@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="clue.css" />
+	
+    <title>Clue</title>
+  </head>
+  <body> 
+    <div class="row" id="suspectRow">
+        <img class="card" id="colmustard" src="./img/suspects/ColMustard.jpg" />
+        <img class="card" id="missscarlet" src="./img/suspects/MissScarlet.jpg" />
+        <img class="card" id="mrgreen" src="./img/suspects/MrGreen.jpg" />
+        <img class="card" id="mrspeacock" src="./img/suspects/MrsPeacock.jpg" />
+        <img class="card" id="mrswhite" src="./img/suspects/MrsWhite.jpg" />
+        <img class="card" id="profplum" src="./img/suspects/ProfPlum.jpg" />
+    </div>
+    <div class="gameBoard">
+      <img id="gameBoard" src="./img/board.png" draggable="false"/>
+      <div class="room" id="kitchen"></div>
+      <div class="room" id="ballroom"></div>
+      <div class="room" id="conservatory"></div>
+      <div class="room" id="diningroom"></div>
+      <div class="room" id="billiardroom"></div>
+      <div class="room" id="lounge"></div>
+      <div class="room" id="hall"></div>
+      <div class="room" id="library"></div>
+      <div class="room" id="study"></div>
+    </div>
+    <div class="row" id="weaponRow">
+        <img class="card" id="candlestick" src="./img/weapons/candlestick.jpg" />
+        <img class="card" id="knife" src="./img/weapons/knife.jpg" />
+        <img class="card" id="leadpipe" src="./img/weapons/leadpipe.jpg" />     
+        <img class="card" id="revolver" src="./img/weapons/revolver.jpg" />    
+        <img class="card" id="rope" src="./img/weapons/rope.jpg" />
+        <img class="card" id="wrench" src="./img/weapons/wrench.jpg" />
+    </div>
+    <div class="gameControls" id="controls">
+          <input type="text" id="userInput" placeholder="Player Name" >
+    <button class="button" type="submit" id="submit" value="Submit">Submit</button>
+    </div>
+    <div class="gameControls" id="guess"></div>
+    <div class="gameControls" id="history"></div>
+    <div class="gameControls" id="records"></div>
+    
+    <script src="clue.js"></script>
+  </body>
+</html>

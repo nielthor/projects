@@ -1,0 +1,116 @@
+* {
+  background-color: whitesmoke;
+  }
+ .gameControls{
+    margin-top: 5px;
+  }
+  .gameControls button{
+    margin-right: 5px;
+  }
+button:focus{
+  outline: none;
+  box-shadow: none;
+}
+button:hover{
+  color: aqua;
+  background-color: black;
+}
+  .row {
+    content: "";
+    clear: both;
+    display: table;
+    width: 570px;
+    height: 100px;
+    border-color: rgb(11, 69, 73);
+    border-style: solid;
+  }
+  .column {
+    float: left;
+    width: auto;
+    padding: 10px;
+  }
+  .card {
+    width: 75px;
+    height: 100px;
+    padding: 5px;
+    background-color: transparent;
+  }
+  .gameBoard {
+    position: relative;
+    width: 570px;
+    border-color: rgb(11, 69, 73);
+    border-style: solid;
+  }
+  #gameBoard {
+    width: 550px;
+    height: 550px;
+    padding: 10px;
+  }
+  .room {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: transparent;
+  }
+  .room .card {
+    width: 50px;
+    height: 75px;
+    padding: 1px;
+    background-color: transparent;
+  }
+  #kitchen {
+    top: 0px;
+    left: 0px;
+    width: 150px;
+    height: 90px;
+  }
+  #ballroom {
+    top: 0px;
+    left: 180px;
+    width: 180px;
+    height: 125px;
+  }
+  #hall {
+    top: 400px;
+    left: 200px;
+    width: 180px;
+    height: 150px;
+  }
+  #conservatory {
+    top: 0px;
+    left: 400px;
+    width: 150px;
+    height: 125px;
+  }
+  #diningroom {
+    top: 180px;
+    left: 0px;
+    width: 150px;
+    height: 150px;
+  }
+  #lounge {
+    top: 420px;
+    left: 0px;
+    width: 160px;
+    height: 125px;
+  }
+  #billiardroom {
+    top: 150px;
+    left: 400px;
+    width: 150px;
+    height: 100px;
+  }
+  #library {
+    top: 300px;
+    left: 400px;
+    width: 150px;
+    height: 100px;
+  }
+  #study {
+    top: 450px;
+    left: 400px;
+    width: 150px;
+    height: 100px;
+  }
