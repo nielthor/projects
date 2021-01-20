@@ -1,0 +1,329 @@
+{
+	"info": {
+		"_postman_id": "851eae46-9c6a-4594-8e48-a34f2d3fd11a",
+		"name": "Lab6",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/stories/id - filter id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3000/stories/id/3",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"stories",
+						"id",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/stories -  filter by title",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3000/stories?title=Test title",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"stories"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "Test title"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/stories - no filter applied",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3000/stories",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"stories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/stories - filter by author",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3000/stories?author=Thor",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"stories"
+					],
+					"query": [
+						{
+							"key": "author",
+							"value": "Thor"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/stories - filter by date",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3000/stories?startDate=1598166000000&endDate=1598252400000",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"stories"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "1598166000000"
+						},
+						{
+							"key": "endDate",
+							"value": "1598252400000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/stories - filter by date and author",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3000/stories?startDate=1598252400000&endDate=1598252400000&author=Author1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"stories"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "1598252400000"
+						},
+						{
+							"key": "endDate",
+							"value": "1598252400000"
+						},
+						{
+							"key": "author",
+							"value": "Author1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/stories update title",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"A Thor Title\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/stories/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"stories",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/stories update content",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"content\": \"A Thor content\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/stories/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"stories",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/stories add new story",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"my new title\",\r\n    \"content\": \"some new content\",\r\n    \"author\": \"Thor\",\r\n    \"flag\": \"true\",\r\n    \"date\": 1305468789530\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/stories",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"stories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/stories delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/stories/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"stories",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bad request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3000/viewnews",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"viewnews"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

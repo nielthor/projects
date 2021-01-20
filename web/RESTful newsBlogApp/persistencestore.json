@@ -1,0 +1,159 @@
+{
+	"NEWS_STORIES": {
+		"1": {
+			"title": "A Title",
+			"content": "A content",
+			"author": "Author1",
+			"date": "Sun, 23 Aug 2020 07:00:00 GMT",
+			"isPublic": false
+		},
+		"2": {
+			"title": "A Thor Title",
+			"content": "A content",
+			"author": "Author1",
+			"date": "Sun, 23 Aug 2020 07:00:00 GMT",
+			"isPublic": false
+		},
+		"3": {
+			"title": "A Thor Title",
+			"content": "A Thor content",
+			"author": "Author1",
+			"date": "Sun, 23 Aug 2020 07:00:00 GMT",
+			"isPublic": false
+		},
+		"4": {
+			"title": "Test Filter title 2",
+			"content": "Content for title 1",
+			"author": "Author1",
+			"date": "Mon, 24 Aug 2020 07:00:00 GMT",
+			"isPublic": true
+		},
+		"5": {
+			"title": "Test Filter title 3",
+			"content": "Content for title 1",
+			"author": "Author1",
+			"date": "Sun, 23 Aug 2020 07:00:00 GMT",
+			"isPublic": true
+		},
+		"6": {
+			"title": "Test title 1",
+			"content": "Content for title 1",
+			"author": "Author1",
+			"date": "Sat, 31 Oct 2020 05:47:56 GMT",
+			"isPublic": false
+		},
+		"8": {
+			"title": "Test Filter title 1",
+			"content": "Content for title 1",
+			"author": "Author1",
+			"date": "Sun, 23 Aug 2020 07:00:00 GMT",
+			"isPublic": false
+		},
+		"9": {
+			"title": "Test Filter title 2",
+			"content": "Content for title 1",
+			"author": "Author1",
+			"date": "Mon, 24 Aug 2020 07:00:00 GMT",
+			"isPublic": true
+		},
+		"10": {
+			"title": "Test Filter title 3",
+			"content": "Content for title 1",
+			"author": "Author1",
+			"date": "Sun, 23 Aug 2020 07:00:00 GMT",
+			"isPublic": true
+		},
+		"11": {
+			"title": "Test title 1",
+			"content": "Content for title 1",
+			"author": "Author1",
+			"date": "Sat, 31 Oct 2020 05:48:41 GMT",
+			"isPublic": false
+		},
+		"13": {
+			"title": "Test Filter title 1",
+			"content": "Content for title 1",
+			"author": "Author1",
+			"date": "Sun, 23 Aug 2020 07:00:00 GMT",
+			"isPublic": false
+		},
+		"14": {
+			"title": "Test Filter title 2",
+			"content": "Content for title 1",
+			"author": "Author1",
+			"date": "Mon, 24 Aug 2020 07:00:00 GMT",
+			"isPublic": true
+		},
+		"15": {
+			"title": "edited Title",
+			"content": "edited Some content",
+			"author": "Author1",
+			"date": "Sun, 23 Aug 2020 07:00:00 GMT",
+			"isPublic": true
+		},
+		"16": {
+			"title": "aTitle",
+			"content": "someContent",
+			"author": "aAuthor",
+			"date": "Fri, 13 Nov 2020 18:18:13 GMT",
+			"isPublic": false
+		},
+		"17": {
+			"title": "aTitle",
+			"content": "someContent",
+			"author": "aAuthor",
+			"date": "Fri, 13 Nov 2020 18:18:13 GMT",
+			"isPublic": false
+		},
+		"18": {
+			"title": "aTitle",
+			"content": "someContent",
+			"author": "aAuthor",
+			"date": "Fri, 13 Nov 2020 18:18:13 GMT",
+			"isPublic": false
+		},
+		"19": {
+			"title": "aTitle",
+			"content": "someContent",
+			"author": "aAuthor",
+			"date": "Fri, 13 Nov 2020 18:18:15 GMT",
+			"isPublic": false
+		},
+		"20": {
+			"title": "aTitle",
+			"content": "someContent",
+			"author": "aAuthor",
+			"date": "Wed, 13 Sep 2017 08:31:35 GMT",
+			"isPublic": false
+		},
+		"22": {
+			"title": "my new title",
+			"content": "some new content",
+			"author": "Thor",
+			"date": "Sun, 15 Nov 2020 19:33:09 GMT",
+			"isPublic": false
+		},
+		"23": {
+			"title": "my new title",
+			"content": "some new content",
+			"author": "Thor",
+			"date": "Sun, 15 Nov 2020 19:33:09 GMT",
+			"isPublic": true
+		},
+		"24": {
+			"title": "my new title",
+			"content": "some new content",
+			"author": "Thor",
+			"date": "Sun, 15 May 2011 14:13:09 GMT",
+			"isPublic": true
+		},
+		"25": {
+			"title": "my new title",
+			"content": "some new content",
+			"author": "Thor",
+			"date": "Invalid Date",
+			"isPublic": true
+		}
+	},
+	"LATEST_ID": 25
+}
